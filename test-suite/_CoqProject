@@ -1,0 +1,7 @@
+-I ../src
+-Q ../theories SMTC
+-R .
+
+-I $(COQLIB)/user-contrib/PluginUtils/
+
+Test.v
